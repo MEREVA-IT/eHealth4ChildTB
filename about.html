@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="cdssTheme">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eHealth4ChildTB - À propos</title>
+</head>
+
+<body class="min-h-screen flex flex-col font-sans bg-base-100">
+
+    <!-- Navbar (Same as index) -->
+    <div class="navbar bg-base-100 shadow-sm container mx-auto px-4">
+        <div class="flex-1">
+            <a href="index.html" class="btn btn-ghost text-xl text-primary font-bold">eHealth<span
+                    class="text-secondary">4ChildTB</span></a>
+        </div>
+        <div class="flex-none gap-2">
+            <ul class="menu menu-horizontal px-1 hidden md:flex">
+                <li><a href="index.html" class="font-medium" data-i18n="nav.home">Accueil</a></li>
+                <li><a href="about.html" class="font-medium text-primary bg-white/20" data-i18n="nav.about">À propos</a></li>
+                <li><a href="terms.html" class="font-medium" data-i18n="nav.terms">CGU</a></li>
+            </ul>
+            <div class="dropdown dropdown-end">
+                <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </div>
+                <ul tabindex="0"
+                    class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <li><a onclick="changeLanguage('fr')">Français</a></li>
+                    <li><a onclick="changeLanguage('en')">English</a></li>
+                </ul>
+            </div>
+            <!-- Mobile Menu Dropdown -->
+            <div class="dropdown dropdown-end md:hidden">
+                <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h7" />
+                    </svg>
+                </div>
+                <ul tabindex="0"
+                    class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <li><a href="index.html" data-i18n="nav.home">Accueil</a></li>
+                    <li><a href="about.html" data-i18n="nav.about">À propos</a></li>
+                    <li><a href="terms.html" data-i18n="nav.terms">CGU</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mission Section -->
+    <section class="py-20 bg-base-200/30">
+        <div class="container mx-auto px-4 text-center max-w-4xl">
+            <h1 class="text-4xl font-bold mb-8" data-i18n="about.mission_title">Notre Mission</h1>
+            <p class="text-2xl font-light leading-relaxed text-base-content/80" data-i18n="about.mission_text">
+                Évaluer une approche basée sur les algorithmes de décision de traitement (TDA) soutenue par des outils
+                numériques...
+            </p>
+        </div>
+    </section>
+
+    <!-- Intervention Map Placeholder -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-2xl font-bold mb-8" data-i18n="about.zones_title">Zones d'Intervention</h2>
+            <div class="flex flex-col md:flex-row gap-8 justify-center items-center">
+                <div class="card w-64 bg-base-100 shadow-md">
+                    <div class="card-body items-center text-center">
+                        <div class="w-16 h-16 rounded-full bg-green-100 flex items-center justify-center text-2xl mb-2">
+                            🇨🇮</div>
+                        <h3 class="card-title" data-i18n="about.ivory_coast">Côte d'Ivoire</h3>
+                    </div>
+                </div>
+                <div class="card w-64 bg-base-100 shadow-md">
+                    <div class="card-body items-center text-center">
+                        <div
+                            class="w-16 h-16 rounded-full bg-yellow-100 flex items-center justify-center text-2xl mb-2">
+                            🇲🇿</div>
+                        <h3 class="card-title" data-i18n="about.mozambique">Mozambique</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Objectives Section -->
+    <section class="py-20 bg-base-200">
+        <div class="container mx-auto px-4 max-w-5xl">
+            <h2 class="text-3xl font-bold mb-12 text-center" data-i18n="about.objectives_title">Objectifs de l'Étude
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="flex gap-4 items-start p-4 bg-base-100 rounded-lg shadow-sm">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary flex-none mt-1" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <p data-i18n="about.obj1">Évaluer l'efficacité...</p>
+                </div>
+                <div class="flex gap-4 items-start p-4 bg-base-100 rounded-lg shadow-sm">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary flex-none mt-1" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <p data-i18n="about.obj2">Analyser la faisabilité...</p>
+                </div>
+                <div class="flex gap-4 items-start p-4 bg-base-100 rounded-lg shadow-sm">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary flex-none mt-1" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <p data-i18n="about.obj3">Mesurer le coût-efficacité...</p>
+                </div>
+                <div class="flex gap-4 items-start p-4 bg-base-100 rounded-lg shadow-sm">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary flex-none mt-1" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <p data-i18n="about.obj4">Étudier l'impact de l'IA...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4" data-i18n="contact.title">Contactez l'équipe</h2>
+            <p class="mb-12 text-base-content/70" data-i18n="contact.subtitle">Pour toute question...</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+                <div class="card bg-base-100 shadow-xl border border-base-200">
+                    <div class="card-body items-center text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary mb-2" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                        </svg>
+                        <h3 class="font-bold text-sm uppercase tracking-wide text-base-content/60"
+                            data-i18n="contact.email_label">Email</h3>
+                        <p class="text-primary font-medium">contact@cdss-project.org</p>
+                    </div>
+                </div>
+                <!-- Locations -->
+                <div class="card bg-base-100 shadow-xl border border-base-200">
+                    <div class="card-body items-center text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-secondary mb-2" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                        <h3 class="font-bold text-sm uppercase tracking-wide text-base-content/60">Côte d'Ivoire</h3>
+                        <p data-i18n="contact.location_ivory">Abidjan</p>
+                    </div>
+                </div>
+                <div class="card bg-base-100 shadow-xl border border-base-200">
+                    <div class="card-body items-center text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-secondary mb-2" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                        <h3 class="font-bold text-sm uppercase tracking-wide text-base-content/60">Mozambique</h3>
+                        <p data-i18n="contact.location_moz">Maputo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded mt-auto">
+        <nav class="grid grid-flow-col gap-4">
+            <a href="index.html" class="link link-hover" data-i18n="nav.home">Accueil</a>
+            <a href="terms.html" class="link link-hover" data-i18n="nav.terms">CGU</a>
+        </nav>
+        <aside>
+            <p data-i18n="footer.rights">© 2026 Projet CDSS TB. Tous droits réservés.</p>
+        </aside>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
