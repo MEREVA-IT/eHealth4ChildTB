@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "terms": "Terms",
+    "contact": "Contact",
+    "language": "Language"
+  },
+  "hero": {
+    "title": "Simplifying Childhood TB Diagnosis",
+    "subtitle": "An innovative mobile application to support clinicians in treatment decision-making using TDA algorithms.",
+    "cta": "Learn More",
+    "app_screenshot_alt": "Screenshot of the CDSS TB app showing the main dashboard"
+  },
+  "benefits": {
+    "title": "Why use the CDSS?",
+    "card1_title": "Enhanced Accuracy",
+    "card1_text": "Computer-assisted CXR reading and severity assessments for reliable diagnostic support.",
+    "card2_title": "Automated Calculation",
+    "card2_text": "Instantly calculates TDA scores based on clinical symptoms and laboratory results.",
+    "card3_title": "Connected Ecosystem",
+    "card3_text": "Seamless interconnection with DHIS2 for real-time data collection and monitoring.",
+    "screenshot_alt": "Screenshot showing result analysis"
+  },
+  "how_it_works": {
+    "title": "How it Works",
+    "step1_title": "Data Entry",
+    "step1_desc": "Enter clinical symptoms and patient data into the intuitive app interface.",
+    "step2_title": "Smart Analysis",
+    "step2_desc": "TDA algorithms analyze clinical data and chest X-rays (if available).",
+    "step3_title": "Recommendation",
+    "step3_desc": "Receive a clear recommendation for diagnosis and treatment.",
+    "screenshot_alt": "Screenshot of the workflow"
+  },
+  "about": {
+    "title": "About the Project",
+    "mission_title": "Our Mission",
+    "mission_text": "To evaluate a comprehensive TDA-based approach supported by innovative digital tools to transform childhood TB screening and management.",
+    "objectives_title": "Study Objectives",
+    "obj1": "Assess the effectiveness of the TDA approach compared to the standard of care.",
+    "obj2": "Analyze feasibility and acceptability among healthcare providers.",
+    "obj3": "Measure cost-effectiveness and budget impact for the health system.",
+    "obj4": "Evaluate the value of lung ultrasonography and diagnostic support tools.",
+    "zones_title": "Intervention Areas",
+    "ivory_coast": "Côte d'Ivoire",
+    "mozambique": "Mozambique"
+  },
+  "contact": {
+    "title": "Contact the Project Team",
+    "subtitle": "For any inquiries regarding the study or CDSS usage.",
+    "email_label": "Support Email",
+    "location_ivory": "Abidjan, Côte d'Ivoire",
+    "location_moz": "Maputo, Mozambique"
+  },
+  "terms": {
+    "title": "Terms and Conditions",
+    "intro_title": "1. Introduction",
+    "intro_text": "Welcome to the eHealth4ChildTB project presentation website. By accessing this site, you agree to these terms.",
+    "purpose_title": "2. Service Purpose",
+    "purpose_text": "This site aims to present the CDSS TB mobile application and the associated study conducted in Côte d'Ivoire and Mozambique.",
+    "usage_title": "3. Terms of Use",
+    "usage_text": "The content of this site is informational. The application presented is an investigational medical device reserved for healthcare professionals participating in the study.",
+    "liability_title": "4. Liability",
+    "liability_text": "The project team strives to provide accurate information but cannot be held liable for errors or omissions.",
+    "privacy_title": "5. Personal Data",
+    "privacy_text": "This showcase site does not collect personal data from visitors.",
+    "contact_title": "6. Contact",
+    "contact_text": "For any legal or technical questions, please contact us via the Contact page."
+  },
+  "footer": {
+    "rights": "© 2026 CDSS eHealth4ChildTB Project. All rights reserved."
+  }
+}
