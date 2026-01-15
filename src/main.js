@@ -10,7 +10,7 @@ i18next
     fallbackLng: 'fr',
     debug: true,
     backend: {
-      loadPath: '/locales/{{lng}}.json',
+      loadPath: './locales/{{lng}}.json',
     },
   }, function(err, t) {
     if (err) return console.error(err);
