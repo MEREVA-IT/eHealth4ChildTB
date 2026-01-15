@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "terms": "CGU",
+    "contact": "Contact",
+    "language": "Langue"
+  },
+  "hero": {
+    "title": "Simplifier le diagnostic de la tuberculose pédiatrique",
+    "subtitle": "Une application mobile innovante pour aider les cliniciens dans la prise de décision thérapeutique grâce aux algorithmes TDA.",
+    "cta": "En savoir plus",
+    "app_screenshot_alt": "Capture d'écran de l'application CDSS TB montrant l'écran principal"
+  },
+  "benefits": {
+    "title": "Pourquoi utiliser le CDSS ?",
+    "card1_title": "Précision Accrue",
+    "card1_text": "Lecture assistée des radiographies et évaluation de la sévérité pour un diagnostic fiable.",
+    "card2_title": "Calcul Automatisé",
+    "card2_text": "Évalue instantanément le score TDA basé sur les symptômes cliniques et les résultats de laboratoire.",
+    "card3_title": "Écosystème Connecté",
+    "card3_text": "Interconnexion fluide avec DHIS2 pour une collecte et un suivi des données en temps réel.",
+    "screenshot_alt": "Capture d'écran montrant l'analyse des résultats"
+  },
+  "how_it_works": {
+    "title": "Comment ça marche ?",
+    "step1_title": "Saisie des Données",
+    "step1_desc": "Entrez les symptômes cliniques et les données du patient dans l'application intuitive.",
+    "step2_title": "Analyse Intelligente",
+    "step2_desc": "Les algorithmes TDA analysent les données cliniques et les radiographies (si disponibles).",
+    "step3_title": "Recommandation",
+    "step3_desc": "Recevez une recommandation claire pour le diagnostic et le traitement.",
+    "screenshot_alt": "Capture d'écran du flux de travail"
+  },
+  "about": {
+    "title": "À Propos du Projet",
+    "mission_title": "Notre Mission",
+    "mission_text": "Évaluer une approche basée sur les algorithmes de décision de traitement (TDA) soutenue par des outils numériques pour transformer le dépistage et la prise en charge de la tuberculose chez l'enfant.",
+    "objectives_title": "Objectifs de l'Étude",
+    "obj1": "Évaluer l'efficacité de l'approche TDA par rapport aux soins standards.",
+    "obj2": "Analyser la faisabilité et l'acceptabilité auprès des agents de santé.",
+    "obj3": "Mesurer le rapport coût-efficacité pour le système de santé.",
+    "obj4": "Étudier l'impact de l'échographie pulmonaire et des outils d'aide au diagnostic.",
+    "zones_title": "Zones d'Intervention",
+    "ivory_coast": "Côte d'Ivoire",
+    "mozambique": "Mozambique"
+  },
+  "contact": {
+    "title": "Contactez l'équipe projet",
+    "subtitle": "Pour toute question concernant l'étude ou l'utilisation du CDSS.",
+    "email_label": "Email de support",
+    "location_ivory": "Abidjan, Côte d'Ivoire",
+    "location_moz": "Maputo, Mozambique"
+  },
+  "terms": {
+    "title": "Conditions Générales d'Utilisation",
+    "intro_title": "1. Introduction",
+    "intro_text": "Bienvenue sur le site de présentation du projet eHealth4ChildTB. En accédant à ce site, vous acceptez les présentes conditions.",
+    "purpose_title": "2. Objet du Service",
+    "purpose_text": "Ce site a pour but de présenter l'application mobile CDSS TB et l'étude associée menée en Côte d'Ivoire et au Mozambique.",
+    "usage_title": "3. Conditions d'Utilisation",
+    "usage_text": "Le contenu de ce site est informatif. L'application présentée est un dispositif médical expérimental réservé aux professionnels de santé participant à l'étude.",
+    "liability_title": "4. Responsabilité",
+    "liability_text": "L'équipe projet s'efforce de fournir des informations exactes mais ne saurait être tenue responsable des erreurs ou omissions.",
+    "privacy_title": "5. Données Personnelles",
+    "privacy_text": "Ce site vitrine ne collecte pas de données personnelles des visiteurs.",
+    "contact_title": "6. Contact",
+    "contact_text": "Pour toute question juridique ou technique, veuillez nous contacter via la page Contact."
+  },
+  "download": {
+    "title": "Télécharger l'Application",
+    "subtitle": "Entrez votre email professionnel pour recevoir le lien de téléchargement",
+    "email_label": "Adresse email",
+    "email_placeholder": "votre.email@example.com",
+    "email_hint": "Utilisez votre email professionnel",
+    "terms_accept": "J'accepte les conditions d'utilisation",
+    "button": "Obtenir le lien de téléchargement",
+    "divider": "OU",
+    "info": "L'application sera bientôt disponible sur",
+    "professional_only": "Cette application est réservée aux professionnels de santé participant à l'étude",
+    "success_message": "Email envoyé ! Consultez votre boîte de réception pour le lien de téléchargement.",
+    "error_message": "Une erreur est survenue. Veuillez réessayer.",
+    "invalid_email": "Veuillez entrer une adresse email valide."
+  },
+  "footer": {
+    "rights": "© 2026 Projet CDSS eHealth4ChildTB. Tous droits réservés."
+  }
+}
