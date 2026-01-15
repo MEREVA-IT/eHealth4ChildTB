@@ -2,9 +2,11 @@
 
 Projet frontend simple pour l'application eHealth4ChildTB — site statique avec Tailwind CSS (DaisyUI) et assets localisés (en/fr).
 
+🌐 **Site en ligne :** [https://mereva-it.github.io/eHealth4ChildTB/](https://mereva-it.github.io/eHealth4ChildTB/)
+
 ## Description
 
-Ce dépôt contient les sources du site statique du projet eHealth4ChildTB : pages HTML, styles et ressources. Le projet utilise Tailwind CSS et PostCSS pour le style, et est fourni avec des fichiers de localisation (`locales/en.json`, `locales/fr.json`).
+Ce dépôt contient les sources du site statique du projet eHealth4ChildTB : pages HTML, styles et ressources. Le projet utilise Vite, Tailwind CSS et PostCSS pour le style, et est fourni avec des fichiers de localisation (`locales/en.json`, `locales/fr.json`).
 
 ## Prérequis
 
@@ -48,3 +50,31 @@ Si les scripts `dev`, `start` ou `build` n'existent pas, vérifier `package.json
 ## Localisation
 
 Le site contient des fichiers de traduction en `locales/en.json` et `locales/fr.json`. Pour ajouter ou modifier des traductions, éditez ces fichiers.
+
+## Déploiement sur GitHub Pages
+
+Le site est automatiquement déployé sur GitHub Pages à chaque push sur la branche `main` grâce à GitHub Actions.
+
+### Configuration initiale
+
+1. **Activer GitHub Pages** dans les paramètres du dépôt :
+   - Aller dans `Settings` > `Pages`
+   - Dans `Source`, sélectionner **GitHub Actions**
+
+2. **Push sur la branche main** :
+   ```bash
+   git add .
+   git commit -m "Add GitHub Pages deployment"
+   git push origin main
+   ```
+
+3. Le déploiement se lance automatiquement. Suivez la progression dans l'onglet **Actions** du dépôt.
+
+4. Une fois déployé, le site sera accessible à : `https://mereva-it.github.io/eHealth4ChildTB/`
+
+### Déploiement manuel
+
+Pour déclencher un déploiement manuel :
+- Aller dans l'onglet **Actions**
+- Sélectionner le workflow **Deploy to GitHub Pages**
+- Cliquer sur **Run workflow**
