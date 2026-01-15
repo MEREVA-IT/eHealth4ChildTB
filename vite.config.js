@@ -1,12 +1,17 @@
 import { defineConfig } from 'vite'
+import { resolve } from 'path'
 
 export default defineConfig({
-  base: '/eHealth4ChildTB/',
+  base: './',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
-    // Ensure all assets are properly referenced
     rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'index.html'),
+        about: resolve(__dirname, 'about.html'),
+        terms: resolve(__dirname, 'terms.html'),
+      },
       output: {
         manualChunks: undefined,
       },
