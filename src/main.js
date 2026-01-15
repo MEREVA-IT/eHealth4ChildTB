@@ -1,17 +1,22 @@
 import './style.css'
 import i18next from 'i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
-import Backend from 'i18next-http-backend';
+import frTranslations from '../public/locales/fr.json';
+import enTranslations from '../public/locales/en.json';
 
 i18next
-  .use(Backend)
   .use(LanguageDetector)
   .init({
     fallbackLng: 'fr',
     debug: true,
-    backend: {
-      loadPath: './locales/{{lng}}.json',
-    },
+    resources: {
+      fr: {
+        translation: frTranslations
+      },
+      en: {
+        translation: enTranslations
+      }
+    }
   }, function(err, t) {
     if (err) return console.error(err);
     updateContent();
