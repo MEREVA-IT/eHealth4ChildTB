@@ -67,6 +67,21 @@
     "contact_title": "6. Contact",
     "contact_text": "For any legal or technical questions, please contact us via the Contact page."
   },
+  "download": {
+    "title": "Download the App",
+    "subtitle": "Enter your professional email to receive the download link",
+    "email_label": "Email address",
+    "email_placeholder": "your.email@example.com",
+    "email_hint": "Use your professional email",
+    "terms_accept": "I accept the terms and conditions",
+    "button": "Get Download Link",
+    "divider": "OR",
+    "info": "The app will soon be available on",
+    "professional_only": "This application is reserved for healthcare professionals participating in the study",
+    "success_message": "Email sent! Check your inbox for the download link.",
+    "error_message": "An error occurred. Please try again.",
+    "invalid_email": "Please enter a valid email address."
+  },
   "footer": {
     "rights": "© 2026 CDSS eHealth4ChildTB Project. All rights reserved."
   }

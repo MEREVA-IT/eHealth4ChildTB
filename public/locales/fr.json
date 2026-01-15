@@ -67,6 +67,21 @@
     "contact_title": "6. Contact",
     "contact_text": "Pour toute question juridique ou technique, veuillez nous contacter via la page Contact."
   },
+  "download": {
+    "title": "Télécharger l'Application",
+    "subtitle": "Entrez votre email professionnel pour recevoir le lien de téléchargement",
+    "email_label": "Adresse email",
+    "email_placeholder": "votre.email@example.com",
+    "email_hint": "Utilisez votre email professionnel",
+    "terms_accept": "J'accepte les conditions d'utilisation",
+    "button": "Obtenir le lien de téléchargement",
+    "divider": "OU",
+    "info": "L'application sera bientôt disponible sur",
+    "professional_only": "Cette application est réservée aux professionnels de santé participant à l'étude",
+    "success_message": "Email envoyé ! Consultez votre boîte de réception pour le lien de téléchargement.",
+    "error_message": "Une erreur est survenue. Veuillez réessayer.",
+    "invalid_email": "Veuillez entrer une adresse email valide."
+  },
   "footer": {
     "rights": "© 2026 Projet CDSS eHealth4ChildTB. Tous droits réservés."
   }
