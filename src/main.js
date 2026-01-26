@@ -105,8 +105,10 @@ function initDownloadForm() {
     try {
       const response = await fetch('https://preprod.pacci.ci/api-ehealth/api/request-apk-download/', {
         method: 'POST',
+        mode: 'cors',
         headers: { 
           'Content-Type': 'application/json',
+          'Accept': 'application/json',
         },
         body: JSON.stringify({ email })
       });
