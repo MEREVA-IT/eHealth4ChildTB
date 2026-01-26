@@ -101,17 +101,21 @@ function initDownloadForm() {
       <span>${i18next.t('download.button')}</span>
     `;
     
-    // Simulate API call (replace with actual API endpoint)
+    // API call to request APK download
     try {
-      // This is a mock API call - replace with your actual endpoint
-      await new Promise((resolve) => setTimeout(resolve, 1500));
+      const response = await fetch('https://preprod.pacci.ci/api-ehealth/api/request-apk-download/', {
+        method: 'POST',
+        headers: { 
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ email })
+      });
       
-      // In a real implementation, you would make an API call here:
-      // const response = await fetch('/api/send-download-link', {
-      //   method: 'POST',
-      //   headers: { 'Content-Type': 'application/json' },
-      //   body: JSON.stringify({ email })
-      // });
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      
+      const data = await response.json();
       
       // Show success message
       messageArea.classList.remove('hidden');
@@ -126,11 +130,9 @@ function initDownloadForm() {
       // Reset form
       form.reset();
       
-      // Log email for demonstration (remove in production)
-      console.log('Download link would be sent to:', email);
-      
     } catch (error) {
       // Show error message
+      console.error('Error requesting APK download:', error);
       messageArea.classList.remove('hidden');
       messageContent.className = 'alert alert-error';
       messageContent.innerHTML = `
@@ -143,10 +145,10 @@ function initDownloadForm() {
       // Re-enable button
       downloadBtn.disabled = false;
       downloadBtn.innerHTML = `
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
         </svg>
-        <span data-i18n="download.button">${i18next.t('download.button')}</span>
+        <span data-i18n="download.button" class="text-sm md:text-base text-center leading-tight">${i18next.t('download.button')}</span>
       `;
     }
   });
