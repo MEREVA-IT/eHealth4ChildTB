@@ -14,7 +14,7 @@
         <div class="flex-1">
             <a href="index.html" class="btn btn-ghost text-xl text-primary font-bold flex items-center gap-2">
                 <img src="/assets/logo.png" alt="CDSS Logo" class="h-10 w-auto">
-                <span>eHealth4ChildTB</span>
+                <span class="hidden sm:inline">eHealth4ChildTB</span>
             </a>
         </div>
         <div class="flex-none gap-2">
@@ -33,7 +33,7 @@
                     </svg>
                 </div>
                 <ul tabindex="0"
-                    class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    class="menu menu-sm dropdown-content mt-3 z-[20] p-2 shadow bg-base-100 rounded-box w-52">
                     <li><a onclick="changeLanguage('fr')">Français</a></li>
                     <li><a onclick="changeLanguage('en')">English</a></li>
                 </ul>
@@ -48,7 +48,7 @@
                     </svg>
                 </div>
                 <ul tabindex="0"
-                    class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    class="menu menu-sm dropdown-content mt-3 z-[20] p-2 shadow bg-base-100 rounded-box w-52">
                     <li><a href="index.html" data-i18n="nav.home">Accueil</a></li>
                     <li><a href="about.html" data-i18n="nav.about">À propos</a></li>
                     <li><a href="terms.html" data-i18n="nav.terms">CGU</a></li>
@@ -58,12 +58,12 @@
     </div>
 
     <!-- Hero Section -->
-    <div class="hero min-h-[85vh] hero-bg relative overflow-hidden">
+    <div class="hero min-h-[85vh] md:min-h-[85vh] hero-bg relative overflow-hidden">
         <!-- Decorative circles -->
         <div class="absolute top-20 right-10 w-64 h-64 bg-primary/5 rounded-full blur-3xl"></div>
         <div class="absolute bottom-20 left-10 w-96 h-96 bg-accent/5 rounded-full blur-3xl"></div>
 
-        <div class="hero-content flex-col lg:flex-row-reverse gap-16 max-w-7xl relative z-10">
+        <div class="hero-content flex-col lg:flex-row-reverse gap-8 md:gap-16 max-w-7xl relative z-10 px-4">
             <div class="w-full lg:w-1/2 flex justify-center animate-float">
                 <!-- Android Phone Mockup -->
                 <div class="phone-mockup">
@@ -81,12 +81,12 @@
                     </svg>
                     Application Android
                 </div>
-                <h1 class="text-5xl lg:text-6xl font-bold leading-tight text-base-content mb-6" data-i18n="hero.title">
+                <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-base-content mb-4 md:mb-6 break-words" data-i18n="hero.title">
                     Simplifier le diagnostic de la tuberculose pédiatrique</h1>
-                <p class="text-xl text-base-content/70 mb-8 leading-relaxed" data-i18n="hero.subtitle">Une application
+                <p class="text-lg md:text-xl text-base-content/70 mb-6 md:mb-8 leading-relaxed" data-i18n="hero.subtitle">Une application
                     mobile innovante pour aider les cliniciens dans la prise de décision thérapeutique.</p>
-                <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                    <a href="about.html" class="btn btn-primary btn-lg rounded-full px-8 gap-2">
+                <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
+                    <a href="about.html" class="btn btn-primary btn-md sm:btn-lg rounded-full px-6 sm:px-8 gap-2">
                         <span data-i18n="hero.cta">En savoir plus</span>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd"
@@ -94,21 +94,21 @@
                                 clip-rule="evenodd" />
                         </svg>
                     </a>
-                    <a href="about.html#contact" data-i18n="hero.contact_us" class="btn btn-outline btn-lg rounded-full px-8">Contactez-nous</a>
+                    <a href="about.html#contact" data-i18n="hero.contact_us" class="btn btn-outline btn-md sm:btn-lg rounded-full px-6 sm:px-8">Contactez-nous</a>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Benefits Section -->
-    <section class="py-20 bg-white">
+    <section class="py-12 md:py-20 bg-white">
         <div class="container mx-auto px-4">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold mb-4" data-i18n="benefits.title">Pourquoi utiliser le CDSS ?</h2>
+            <div class="text-center mb-8 md:mb-16">
+                <h2 class="text-2xl md:text-3xl font-bold mb-4" data-i18n="benefits.title">Pourquoi utiliser le CDSS ?</h2>
                 <div class="w-20 h-1 bg-secondary mx-auto rounded"></div>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mb-8 md:mb-16">
                 <!-- Card 1 -->
                 <div class="card bg-base-100 shadow-xl border border-base-200 card-hover">
                     <div class="card-body items-center text-center">
@@ -120,8 +120,8 @@
                                     d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                             </svg>
                         </div>
-                        <h3 class="card-title text-xl" data-i18n="benefits.card1_title">Précision Accrue</h3>
-                        <p class="text-base-content/70 leading-relaxed" data-i18n="benefits.card1_text">Intégration de
+                        <h3 class="card-title text-xl break-words" data-i18n="benefits.card1_title">Précision Accrue</h3>
+                        <p class="text-base-content/70 leading-relaxed break-words" data-i18n="benefits.card1_text">Intégration de
                             l'IA pour la lecture des radiographies.</p>
                     </div>
                 </div>
@@ -136,8 +136,8 @@
                                     d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
                             </svg>
                         </div>
-                        <h3 class="card-title text-xl" data-i18n="benefits.card2_title">Calcul Automatisé</h3>
-                        <p class="text-base-content/70 leading-relaxed" data-i18n="benefits.card2_text">Évalue
+                        <h3 class="card-title text-xl break-words" data-i18n="benefits.card2_title">Calcul Automatisé</h3>
+                        <p class="text-base-content/70 leading-relaxed break-words" data-i18n="benefits.card2_text">Évalue
                             instantanément le score TDA basé sur les symptômes.</p>
                     </div>
                 </div>
@@ -152,34 +152,36 @@
                                     d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                             </svg>
                         </div>
-                        <h3 class="card-title text-xl" data-i18n="benefits.card3_title">Écosystème Connecté</h3>
-                        <p class="text-base-content/70 leading-relaxed" data-i18n="benefits.card3_text">Interconnexion
+                        <h3 class="card-title text-xl break-words" data-i18n="benefits.card3_title">Écosystème Connecté</h3>
+                        <p class="text-base-content/70 leading-relaxed break-words" data-i18n="benefits.card3_text">Interconnexion
                             fluide avec DHIS2 pour le suivi.</p>
                     </div>
                 </div>
             </div>
 
             <!-- Screenshot Context - Android Tablet -->
-            <div class="flex justify-evenly">
-                <!-- Android Tablet Mockup -->
-                <div class="phone-mockup">
-                    <div class="phone-screen screenshot-placeholder">
-                        <img src="/assets/captures/tb_diagnostic_1.png" alt="">
+            <div class="overflow-x-auto pb-4">
+                <div class="flex gap-4 md:gap-6 justify-start md:justify-evenly min-w-max md:min-w-0 px-4 md:px-0">
+                    <!-- Android Tablet Mockup -->
+                    <div class="phone-mockup flex-shrink-0">
+                        <div class="phone-screen screenshot-placeholder">
+                            <img src="/assets/captures/tb_diagnostic_1.png" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="phone-mockup">
-                    <div class="phone-screen screenshot-placeholder">
-                        <img src="/assets/captures/tb_diagnostic_2.png" alt="">
+                    <div class="phone-mockup flex-shrink-0">
+                        <div class="phone-screen screenshot-placeholder">
+                            <img src="/assets/captures/tb_diagnostic_2.png" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="phone-mockup">
-                    <div class="phone-screen screenshot-placeholder">
-                        <img src="/assets/captures/tb_diagnostic_3.png" alt="">
+                    <div class="phone-mockup flex-shrink-0">
+                        <div class="phone-screen screenshot-placeholder">
+                            <img src="/assets/captures/tb_diagnostic_3.png" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="phone-mockup">
-                    <div class="phone-screen screenshot-placeholder">
-                        <img src="/assets/captures/tb_diagnostic_4.png" alt="">
+                    <div class="phone-mockup flex-shrink-0">
+                        <div class="phone-screen screenshot-placeholder">
+                            <img src="/assets/captures/tb_diagnostic_4.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -187,14 +189,14 @@
     </section>
 
     <!-- How it Works -->
-    <section class="py-20 bg-base-200/50">
+    <section class="py-12 md:py-20 bg-base-200/50">
         <div class="container mx-auto px-4">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold mb-4" data-i18n="how_it_works.title">Comment ça marche ?</h2>
+            <div class="text-center mb-8 md:mb-16">
+                <h2 class="text-2xl md:text-3xl font-bold mb-4" data-i18n="how_it_works.title">Comment ça marche ?</h2>
                 <div class="w-20 h-1 bg-primary mx-auto rounded"></div>
             </div>
 
-            <div class="flex flex-col lg:flex-row gap-12 items-center">
+            <div class="flex flex-col lg:flex-row gap-8 md:gap-12 items-center">
                 <!-- Steps Text -->
                 <div class="flex-1 space-y-8">
                     <div class="flex gap-4">
@@ -243,17 +245,17 @@
     </section>
 
     <!-- Download Section -->
-    <section class="py-20 bg-gradient-to-br from-primary/10 via-base-100 to-secondary/10">
+    <section class="py-12 md:py-20 bg-gradient-to-br from-primary/10 via-base-100 to-secondary/10">
         <div class="container mx-auto px-4">
             <div class="max-w-3xl mx-auto">
-                <div class="text-center mb-12">
+                <div class="text-center mb-8 md:mb-12">
                     <div class="inline-block p-3 bg-primary/10 rounded-2xl mb-4">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 md:h-12 md:w-12 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
                         </svg>
                     </div>
-                    <h2 class="text-4xl font-bold mb-4" data-i18n="download.title">Télécharger l'Application</h2>
-                    <p class="text-xl text-base-content/70" data-i18n="download.subtitle">Entrez votre email professionnel pour recevoir le lien de téléchargement</p>
+                    <h2 class="text-2xl md:text-4xl font-bold mb-4" data-i18n="download.title">Télécharger l'Application</h2>
+                    <p class="text-lg md:text-xl text-base-content/70" data-i18n="download.subtitle">Entrez votre email professionnel pour recevoir le lien de téléchargement</p>
                 </div>
 
                 <div class="card bg-base-100 shadow-2xl">
@@ -289,11 +291,11 @@
                                 <div id="messageContent" class="alert"></div>
                             </div>
 
-                            <button type="submit" id="downloadBtn" class="btn btn-primary btn-block btn-lg gap-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <button type="submit" id="downloadBtn" class="btn btn-primary btn-block btn-md md:btn-lg gap-2 h-auto min-h-[3rem] md:min-h-[3.5rem] py-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                                 </svg>
-                                <span data-i18n="download.button">Obtenir le lien de téléchargement</span>
+                                <span data-i18n="download.button" class="text-sm md:text-base text-center leading-tight">Obtenir le lien de téléchargement</span>
                             </button>
                         </form>
 
@@ -309,14 +311,14 @@
     </section>
 
     <!-- Footer -->
-    <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded mt-auto">
-        <nav class="grid grid-flow-col gap-4">
+    <footer class="footer footer-center p-6 md:p-10 bg-base-200 text-base-content rounded mt-auto">
+        <nav class="grid grid-flow-col gap-3 md:gap-4 text-sm md:text-base">
             <a href="about.html" class="link link-hover" data-i18n="nav.about">À propos</a>
             <a href="terms.html" class="link link-hover" data-i18n="nav.terms">CGU</a>
             <a href="#" class="link link-hover" data-i18n="nav.contact">Contact</a>
         </nav>
         <aside>
-            <p data-i18n="footer.rights">© 2026 Projet CDSS TB. Tous droits réservés.</p>
+            <p class="text-sm md:text-base" data-i18n="footer.rights">© 2026 Projet CDSS TB. Tous droits réservés.</p>
         </aside>
     </footer>
 

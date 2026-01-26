@@ -14,7 +14,7 @@
         <div class="flex-1">
             <a href="index.html" class="btn btn-ghost text-xl text-primary font-bold flex items-center gap-2">
                 <img src="/assets/logo.png" alt="CDSS Logo" class="h-10 w-auto">
-                <span>eHealth4ChildTB</span>
+                <span class="hidden sm:inline">eHealth4ChildTB</span>
             </a>
         </div>
         <div class="flex-none gap-2">
@@ -57,10 +57,10 @@
     </div>
 
     <!-- Mission Section -->
-    <section class="py-20 bg-base-200/30">
+    <section class="py-12 md:py-20 bg-base-200/30">
         <div class="container mx-auto px-4 text-center max-w-4xl">
-            <h1 class="text-4xl font-bold mb-8" data-i18n="about.mission_title">Notre Mission</h1>
-            <p class="text-2xl font-light leading-relaxed text-base-content/80" data-i18n="about.mission_text">
+            <h1 class="text-2xl md:text-4xl font-bold mb-6 md:mb-8 break-words" data-i18n="about.mission_title">Notre Mission</h1>
+            <p class="text-lg md:text-2xl font-light leading-relaxed text-base-content/80 break-words" data-i18n="about.mission_text">
                 Évaluer une approche basée sur les algorithmes de décision de traitement (TDA) soutenue par des outils
                 numériques...
             </p>
@@ -68,23 +68,23 @@
     </section>
 
     <!-- Intervention Map Placeholder -->
-    <section class="py-12 bg-white">
+    <section class="py-8 md:py-12 bg-white">
         <div class="container mx-auto px-4 text-center">
-            <h2 class="text-2xl font-bold mb-8" data-i18n="about.zones_title">Zones d'Intervention</h2>
-            <div class="flex flex-col md:flex-row gap-8 justify-center items-center">
-                <div class="card w-64 bg-base-100 shadow-md">
+            <h2 class="text-xl md:text-2xl font-bold mb-6 md:mb-8" data-i18n="about.zones_title">Zones d'Intervention</h2>
+            <div class="flex flex-col md:flex-row gap-6 md:gap-8 justify-center items-center">
+                <div class="card w-full max-w-xs md:w-64 bg-base-100 shadow-md">
                     <div class="card-body items-center text-center">
-                        <div class="w-16 h-16 rounded-full bg-green-100 flex items-center justify-center text-2xl mb-2">
+                        <div class="w-14 h-14 md:w-16 md:h-16 rounded-full bg-green-100 flex items-center justify-center text-2xl mb-2">
                             🇨🇮</div>
-                        <h3 class="card-title" data-i18n="about.ivory_coast">Côte d'Ivoire</h3>
+                        <h3 class="card-title text-base md:text-lg break-words" data-i18n="about.ivory_coast">Côte d'Ivoire</h3>
                     </div>
                 </div>
-                <div class="card w-64 bg-base-100 shadow-md">
+                <div class="card w-full max-w-xs md:w-64 bg-base-100 shadow-md">
                     <div class="card-body items-center text-center">
                         <div
-                            class="w-16 h-16 rounded-full bg-yellow-100 flex items-center justify-center text-2xl mb-2">
+                            class="w-14 h-14 md:w-16 md:h-16 rounded-full bg-yellow-100 flex items-center justify-center text-2xl mb-2">
                             🇲🇿</div>
-                        <h3 class="card-title" data-i18n="about.mozambique">Mozambique</h3>
+                        <h3 class="card-title text-base md:text-lg break-words" data-i18n="about.mozambique">Mozambique</h3>
                     </div>
                 </div>
             </div>
@@ -92,18 +92,18 @@
     </section>
 
     <!-- Objectives Section -->
-    <section class="py-20 bg-base-200">
+    <section class="py-12 md:py-20 bg-base-200">
         <div class="container mx-auto px-4 max-w-5xl">
-            <h2 class="text-3xl font-bold mb-12 text-center" data-i18n="about.objectives_title">Objectifs de l'Étude
+            <h2 class="text-2xl md:text-3xl font-bold mb-8 md:mb-12 text-center" data-i18n="about.objectives_title">Objectifs de l'Étude
             </h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
                 <div class="flex gap-4 items-start p-4 bg-base-100 rounded-lg shadow-sm">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary flex-none mt-1" fill="none"
                         viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
-                    <p data-i18n="about.obj1">Évaluer l'efficacité...</p>
+                    <p data-i18n="about.obj1" class="break-words">Évaluer l'efficacité...</p>
                 </div>
                 <div class="flex gap-4 items-start p-4 bg-base-100 rounded-lg shadow-sm">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary flex-none mt-1" fill="none"
@@ -134,12 +134,12 @@
     </section>
 
     <!-- Contact Section -->
-    <section class="py-20 bg-white">
+    <section class="py-12 md:py-20 bg-white" id="contact">
         <div class="container mx-auto px-4 text-center">
-            <h2 class="text-3xl font-bold mb-4" data-i18n="contact.title">Contactez l'équipe</h2>
-            <p class="mb-12 text-base-content/70" data-i18n="contact.subtitle">Pour toute question...</p>
+            <h2 class="text-2xl md:text-3xl font-bold mb-3 md:mb-4" data-i18n="contact.title">Contactez l'équipe</h2>
+            <p class="mb-8 md:mb-12 text-base-content/70" data-i18n="contact.subtitle">Pour toute question...</p>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 max-w-4xl mx-auto">
                 <div class="card bg-base-100 shadow-xl border border-base-200">
                     <div class="card-body items-center text-center">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary mb-2" fill="none"
@@ -184,13 +184,13 @@
     </section>
 
     <!-- Footer -->
-    <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded mt-auto">
-        <nav class="grid grid-flow-col gap-4">
+    <footer class="footer footer-center p-6 md:p-10 bg-base-200 text-base-content rounded mt-auto">
+        <nav class="grid grid-flow-col gap-3 md:gap-4 text-sm md:text-base">
             <a href="index.html" class="link link-hover" data-i18n="nav.home">Accueil</a>
             <a href="terms.html" class="link link-hover" data-i18n="nav.terms">CGU</a>
         </nav>
         <aside>
-            <p data-i18n="footer.rights">© 2026 Projet CDSS TB. Tous droits réservés.</p>
+            <p class="text-sm md:text-base" data-i18n="footer.rights">© 2026 Projet CDSS TB. Tous droits réservés.</p>
         </aside>
     </footer>
 
