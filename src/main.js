@@ -103,7 +103,7 @@ function initDownloadForm() {
     
     // API call to request APK download
     try {
-      const response = await fetch('https://preprod.pacci.ci/api-ehealth/api/request-apk-download/', {
+      const response = await fetch('https://projet.pac-ci.org/api-ehealth/api/request-apk-download/', {
         method: 'POST',
         mode: 'cors',
         headers: { 
