@@ -61,7 +61,7 @@
 @media (min-width: 768px) {
     .phone-mockup {
         width: 280px;
-        height: 560px;
+        height: 565px;
         border-radius: 36px;
         padding: 12px;
     }
@@ -125,6 +125,16 @@
     color: #64748b;
     font-size: 0.875rem;
     text-align: center;
+}
+
+.screenshot-placeholder-how {
+    background: linear-gradient(135deg, #e0e7ff 0%, #dbeafe 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #64748b;
+    text-align: center;
+    padding-top: 1.8rem;
 }
 
 /* Hover effects */
