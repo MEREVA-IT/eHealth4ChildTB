@@ -66,7 +66,9 @@
     "privacy_title": "5. Données Personnelles",
     "privacy_text": "Ce site vitrine ne collecte pas de données personnelles des visiteurs.",
     "contact_title": "6. Contact",
-    "contact_text": "Pour toute question juridique ou technique, veuillez nous contacter via la page Contact."
+    "contact_text": "Pour toute question juridique ou technique, veuillez nous contacter via la page Contact.",
+    "in_progress":"La politique de confidentialité est en cour de rédaction.",
+    "in_progress_cont":"Contact et responsable : Ismaila Ouedraogo - ismaila.ouedraogo@u-bordeaux.fr"
   },
   "download": {
     "title": "Télécharger l'Application",

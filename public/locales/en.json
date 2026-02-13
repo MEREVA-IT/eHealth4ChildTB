@@ -66,7 +66,9 @@
     "privacy_title": "5. Personal Data",
     "privacy_text": "This showcase site does not collect personal data from visitors.",
     "contact_title": "6. Contact",
-    "contact_text": "For any legal or technical questions, please contact us via the Contact page."
+    "contact_text": "For any legal or technical questions, please contact us via the Contact page.",
+    "in_progress": "The privacy policy is currently being drafted.",
+    "in_progress_cont": "Contact and responsible: Ismaila Ouedraogo - ismaila.ouedraogo@u-bordeaux.fr"
   },
   "download": {
     "title": "Download the App",
