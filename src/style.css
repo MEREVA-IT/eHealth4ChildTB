@@ -184,6 +184,17 @@
     max-width: 100%;
 }
 
+/* Dropdowns are positioned relative to their small trigger button:
+   bound them to the viewport instead of the parent width */
+.dropdown-content,
+.dropdown-content * {
+    max-width: calc(100vw - 2rem);
+}
+
+.dropdown-content a {
+    white-space: nowrap;
+}
+
 /* Ensure long words break properly */
 .card-title,
 .btn,
